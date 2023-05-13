@@ -1,0 +1,165 @@
+/* -------------------------------- header -------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.header_class{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #46d9a8, #8a865f);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding-left: 8%;
+    padding-top: 45px;
+    padding-right: 8%;
+}
+.portfolio{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+     cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none; 
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+/* -------------------------------- main -------------------------------- */
+
+/* -------------------------------- Overview -------------------------------- */
+.overview{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.overview_sec{
+    width: 100%;
+    margin: 0 auto;   
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+}
+.overview_sec img{
+    position: relative;
+    width: 45%;
+}
+
+.overview_sec .overview_text{
+    position: relative;
+    width: 45%;
+    
+}
+
+.overview_text h2{
+    color: black;
+    font-size: 50px; 
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.overview_text p{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+}
+/* -------------------------------- Lydex -------------------------------- */
+.lydex{
+    background: linear-gradient(to right, #46d9a8, #8a865f);
+    width: 100%;
+    padding: 100px 10px;
+}
+.title{
+    color: black;
+    font-size: 40px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+}
+.box img{
+    position: relative;
+    width: 45%;
+}
+
+.box .text_area{
+    position: relative;
+    width: 45%;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+/* -------------------------------- ECL  -------------------------------- */
+.ecl{
+    background: linear-gradient(to right, #46d9a8, #8a865f);
+    width: 100%;
+    padding: 100px 10px;
+}
+
+/* -------------------------------- university -------------------------------- */
+.univ{
+    background: linear-gradient(to right, #46d9a8, #8a865f);
+    width: 100%;
+    padding: 100px 10px;
+}
+/* -------------------------------- footer -------------------------------- */
+.footer_class{
+    color: black;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(to right, #46d9a8, #8a865f);
+}
+.footer_class i{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+/* -------------------------------- button -------------------------------- */
+.button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 22px;
+    border-radius: 30px;
+    transition: .4s; 
+    
+    
+}
+.button :hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
